@@ -55,9 +55,9 @@ workflows:
     integrations:
       app_store_connect: codemagic
     environment:
-           ios_signing:
-             distribution_type: app_store # or: ad_hoc | development | enterprise
-             bundle_identifier: com.example.codemagicYamlDemo
+      ios_signing:
+        distribution_type: app_store # or: ad_hoc | development | enterprise
+        bundle_identifier: com.example.codemagicYamlDemo
       vars:
         APP_ID: 1111111111 # <-- Put your APP ID here
       flutter: stable
