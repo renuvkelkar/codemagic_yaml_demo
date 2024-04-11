@@ -53,7 +53,7 @@ workflows:
     instance_type: mac_mini_m1
     max_build_duration: 120
     integrations:
-      app_store_connect: codemagic
+      app_store_connect: Renuka
     environment:
       ios_signing:
         distribution_type: app_store # or: ad_hoc | development | enterprise
